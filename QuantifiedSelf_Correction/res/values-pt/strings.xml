@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuantifiedSelf</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="quantifiedSelf">Quantified Self</string>
+    <string name="dayOfWeek"></string>
+    <string name="title_activity_personal_info">Informação Pessoal</string>
+    <string name="sex">Sexo</string>
+    <string name="feminino">F</string>
+    <string name="masculino">M</string>
+    <string name="BirthDate">Data Nascimento</string>
+    <string name="height">Altura</string>
+    <string name="Weight">Peso</string>
+    <string name="edit">Editar</string>
+    <string name="dateFormat">yyyy/mm/dd</string>
+    <string name="saveExt">Gravar Externamente</string>
+    <string name="readExt">Ler Externamente</string>
+    <string name="persistence">Persistência</string>
+    <string name="Historico">Históric</string>
+    <string name="metros">metros (m)</string>
+    <string name="Perfil">Perfil</string>
+    <string name="LastRecords">Últimos Registos</string>
+    <string name="title_activity_historic">Histórico</string>
+    <string name="Glucose">Glucose</string>
+    <string name="Valor">Valor</string>
+    <string name="Unit">Unidades</string>
+    <string name="Data">Tempo</string>
+    <string name="title_activity_new_entry">Nova Entrada</string>
+    <string name="title_activity_glucose">Glucose</string>
+    <string name="title_last_record_activity">Último Registo</string>
+    <string name="NewEntry">Nova Entrada</string>
+    <string name="LastEntry">Último Registo</string>
+    <string name="Save">Gravar</string>
+    <string name="title_activity_glucose__new">Glucose</string>
+    <string name="title_activity_activity__historic">Histórico Actividades</string>
+    <string name="title_activity_bmi__historic">Histórico BMI</string>
+    <string name="title_activity_blood_pressure__historic">Histórico Pressão Sanguínea</string>
+    <string name="title_activity_body_fat_historic">Histórico Gordura Corpural</string>
+    <string name="title_activity_weight_historic">Histórico Peso</string>
+    <string name="title_activity_heart_rate_historic">Histórico Batimentos Cardíacos</string>
+    <string name="imgBtn">imgBtn</string>
+    <string name="date">yyyy/mm/dd</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="valueSys">Valor Sistólico</string>
+    <string name="valDias">Value Diastólico</string>
+    <string name="title_activity_blood_pressure_new">Novo Registo</string>
+    <string name="EndTime">Tempo de fim</string>
+    <string name="StartTime">Tempo de início</string>
+    <string name="title_activity_activity_new">ActivityNew</string>
+    <string name="type">Tipo</string>
+    <string name="profile">perfil</string>
+    <string name="calories">Calorias</string>
+    <string name="dateFormat2">dd/MM/yyyy HH:mm</string>
+    <string name="title_last_record_bloodPressure">Último Registo Pressão Sanguínea</string>
+    <string name="title_last_records">Último </string>
+    <string name="title_activity_last_record_bmi">Último Registo IMC</string>
+    <string name="title_activity_last_record_body_fat">Último Registo Gordura Corpural</string>
+    <string name="title_activity_last_record_glucose">Último Registo Glucose</string>
+    <string name="title_activity_last_record_heart_rate">Último Registo Batimentos Cardíacos</string>
+    <string name="title_activity_last_record_weight">Último Registo Peso</string>
+
+</resources>

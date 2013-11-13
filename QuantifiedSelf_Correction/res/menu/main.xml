@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+     <item
+        android:id="@+id/profile"
+        android:showAsAction="always"
+        android:icon="@drawable/personal_information"/>
+     
+     <item
+		android:id="@drawable/ic_persistence"
+		android:showAsAction="always"
+		android:title="@string/persistence">
+		<menu>
+			<item
+				android:id="@+id/saveExt"
+				android:title="@string/saveExt">
+			</item>
+			<item
+				android:id="@+id/readExt"
+				android:title="@string/readExt">
+			</item>
+		</menu>
+	</item>
+
+</menu>

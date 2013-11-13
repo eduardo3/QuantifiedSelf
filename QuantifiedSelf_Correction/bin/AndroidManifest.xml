@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quantifiedself"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.quantifiedself.controller.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.PersonalInfoActivity"
+            android:label="@string/title_activity_personal_info" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.quantifiedself.controller.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.PersonalInfoEditActivity"
+            android:label="@string/title_activity_personal_info" />
+        <activity
+            android:name="com.example.quantifiedself.controller.Historic"
+            android:label="@string/title_activity_historic" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.NewEntryActivity"
+            android:label="@string/title_activity_new_entry" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.Glucose_Historic"
+            android:label="@string/title_activity_glucose" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.LastRecords"
+            android:label="@string/title_last_records" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.BmiNew"
+            android:label="@string/title_activity_new_entry" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.Glucose_New"
+            android:label="@string/title_activity_glucose__new" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.HeartRateNew"
+            android:label="@string/title_activity_new_entry" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.WeightNew"
+            android:label="@string/title_activity_new_entry" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.BodyFatNew"
+            android:label="@string/title_activity_new_entry" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.Activity_Historic"
+            android:label="@string/title_activity_activity__historic" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.BMI_Historic"
+            android:label="@string/title_activity_bmi__historic" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.BloodPressure_Historic"
+            android:label="@string/title_activity_blood_pressure__historic" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.BodyFatHistoric"
+            android:label="@string/title_activity_body_fat_historic" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.WeightHistoric"
+            android:label="@string/title_activity_weight_historic" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.HeartRateHistoric"
+            android:label="@string/title_activity_heart_rate_historic" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.HistoricActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.BloodPressureNew"
+            android:label="@string/title_activity_blood_pressure_new" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.ActivityNew"
+            android:label="@string/title_activity_activity_new" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.LastRecordBloodPressure"
+            android:label="@string/title_last_record_bloodPressure" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.LastRecordActivity"
+            android:label="@string/title_last_record_activity" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.LastRecordBmi"
+            android:label="@string/title_activity_last_record_bmi" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.LastRecordBodyFat"
+            android:label="@string/title_activity_last_record_body_fat" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.LastRecordGlucose"
+            android:label="@string/title_activity_last_record_glucose" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.LastRecordHeartRate"
+            android:label="@string/title_activity_last_record_heart_rate" >
+        </activity>
+        <activity
+            android:name="com.example.quantifiedself.controller.LastRecordWeight"
+            android:label="@string/title_activity_last_record_weight" >
+        </activity>
+    </application>
+
+</manifest>
