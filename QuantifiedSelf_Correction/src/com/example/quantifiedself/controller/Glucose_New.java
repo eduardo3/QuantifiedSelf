@@ -29,7 +29,10 @@ public class Glucose_New extends DateFormat {
 		editTime = (EditText) findViewById(R.id.edTime);
 		editValue = (EditText) findViewById(R.id.edValue);
 		btnSave = (Button) findViewById(R.id.btnSave);
-		
+		if((!(editTime.getText().toString()=="")) && (!(editValue.getText().toString()=="")))
+		{
+		if(editValue.getText().toString().contains("[a-zA-Z]"))
+			Toast.makeText(this, "Valores Inseridos estão inválidos!\nExprimente algorismos", Toast.LENGTH_LONG).show();
 	
 		btnSave.setOnClickListener(new OnClickListener() {
 			
